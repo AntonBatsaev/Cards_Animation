@@ -1,5 +1,5 @@
 
-function slidesPlugins(activeSlide = 0) {
+function slidesPlugins(activeSlide = 1) {
     const slides = document.querySelectorAll('.slide')
     
     slides[activeSlide].classList.add('active')
